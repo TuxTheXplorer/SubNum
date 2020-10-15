@@ -39,8 +39,7 @@ cat fping.tmp > fping.list
 rm fping.tmp
 
 # Run threader3000 on fping results
-
-threader3000.py 
-
+threader3000.py -f fping.list 
 
 # Run nmap on open ports (threader3000 output)
+# Thus functionality is already implemented in Threader3000 (Tux version)
