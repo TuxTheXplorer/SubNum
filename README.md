@@ -1,7 +1,7 @@
 # SubNum
 Automatic Subnet enumeration tool.
 - Using fping for host discovery
-- Using threader3000.py for port discovery
+- Using threader6000.py for port discovery
 - Using nmap for service and version detection
 
 Usage: discover.sh [options]
